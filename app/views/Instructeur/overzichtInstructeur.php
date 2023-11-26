@@ -14,14 +14,10 @@
 </head>
 
 <body>
-
     <div class="container mx-auto p-4">
         <u><?= $data['title']; ?></u><br>
-        <!-- button to take me home  -->
         <a href="<?= URLROOT; ?>" class="btn btn-primary">Home</a>
-        <!-- aantal instructeurs -->
         <p>Er zijn <?= $data['totalInstructeurs']; ?> instructeurs</p>
-        <!-- Your content goes here -->
         <table>
             <thead>
                 <th>Voornaam</th>
